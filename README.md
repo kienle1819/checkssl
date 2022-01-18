@@ -1,5 +1,5 @@
 # checkssl
-## run ok
+## Run ok
 ```
 # ./checkssl.sh my-domain.crt intermediate-and-root.crt
 stdin: OK - CN Root
@@ -7,7 +7,7 @@ stdin: OK - CN Intermediate
 stdin: OK - CN example.com
 ```
 
-##run wrong
+## Run wrong
 ```
 # ./check-cert.sh my-domain-error.crt intermediate-and-root.crt
 stdin: OK - Root
